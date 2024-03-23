@@ -1,0 +1,17 @@
+﻿<Window x:Class="semana2.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:semana2"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textbox_usuario" Text="Johan Osorio" HorizontalAlignment="Left" Height="30" Margin="376,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" TextChanged="textbox_usuario_TextChanged"/>
+        <TextBox x:Name="textbox_contraseña" Text="3118" HorizontalAlignment="Left" Height="34" Margin="376,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" TextChanged="textbox_contraseña_TextChanged"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="264,292,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="-0.948,3.322" Click="Button_Click"/>
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="392,292,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="-0.948,3.322" Click="Button_Click_1"/>
+        <Label Content="Ingrese Usuario:" HorizontalAlignment="Left" Margin="246,83,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ingrese Contraseña:" HorizontalAlignment="Left" Margin="246,167,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
